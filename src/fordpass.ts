@@ -8,7 +8,7 @@ const defaultHeaders = {
   'User-Agent': 'fordpass-na/353 CFNetwork/1121.2.2 Darwin/19.3.0',
 };
 
-const fordAPIUrl = 'https://usapi.cv.ford.com/';
+const fordAPIUrl = 'https://ifas.prod-row.jlrmotor.com/ifas/jlr/tokens/';
 
 const handleError = function (name: string, status: number, log: Logging): void {
   log.error(`${name} failed with status: ${status}`);
